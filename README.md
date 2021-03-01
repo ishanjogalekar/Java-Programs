@@ -8,7 +8,7 @@ Different Java Codes.
 
 6. Define an abstract class called Travel [defined in package1] with few appropriate data members and methods for getting and displaying the same, create two subclasses called    “InternationalTravel” and “NationalTravel” with new necessary data members respectively. Create at least three objects for both of the subclasses and just display the info in  package2 based on your travel experience so far. Also create a method which scans the places which you would like to travel along with tentative year, in which you may travel and display that as well.
 
- 7.Create a class called Student with Data members (1) Regno (2) Name (3)
+7. Create a class called Student with Data members (1) Regno (2) Name (3)
 static data member named as Univ_name and static counter variable to
 store number of objects created and Methods (1) GetMethod (2)
 PrintMethod (3)Constructor (4) Parametrized constructor
@@ -20,5 +20,22 @@ slot and venue along with necessary methods.
 and inform them to choose two subjects
 (4) if the selected courses have same slots, ask student to choose
 without clashing
-(5) print the selected course in a table format with all necessary details 
+(5) print the selected course in a table format with all necessary details.
+
+8. Design a class called Participants with properties like Name, Phno,
+Branch and University, TestResult_Classification[L1,L2,L3,L4,L5]. Create a
+static method to display a message as follows based on the selection
+criteria,
+(i) If student test result classification is L1, congratulate the student
+and inform that he/she has been selected for both Full time
+intership as well as Full time job
+(ii) If student test result classification is L2 or L3, inform the student
+that he/she has been selected for Full time intership and Job
+may be offered based on intership Performance.
+(iii) If student test result classification is L4 or L5, inform that he/she
+has been selected for Part time intership of 21 days.
+Create atleast three Participants objects of array and then invoke static
+method to display the message.
+Note: Don’t use if statement for conditional check, instead use Switch
+Case statement.
 
