@@ -39,3 +39,10 @@ method to display the message.
 Note: Don’t use if statement for conditional check, instead use Switch
 Case statement.
 
+9. Create a class person with datamembers like name,
+age, phno with methods getvalues and printvalues, store
+the class in a package called pack1. Define a class
+named student in subpackage SubPack1 and extend
+the class defined as person. Use this class in a program
+of different package Pack2, create an object and invoke
+the methods defined in pack1 class file.
