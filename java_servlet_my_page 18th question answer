@@ -1,0 +1,126 @@
+1. Index HTML :-
+<html>
+<head>
+<title> My Family Page </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=devicewidth,
+initial-scale=1.0">
+<h1 style="text-align:center">My Family </h1>
+</head>
+<body>
+<center> THIS IS INDEX PAGE </center>
+<img src="Ishan1.jpg" alt="Ishan Jogalekar"
+width="300" height="300">
+<h3>
+Name : Ishan Sagar Jogaleakr
+<br><br>
+Reg.no:19BCE2250
+<br><br>
+Email:ishansagar.jogalekar2019@vitstudent.ac.in
+<br><br>
+Contact:9876543601
+</h3>
+<br>
+<a href ="Family.html">Add Family Info </a>
+</body>
+</html>
+
+2. Family HTML :-
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in
+Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+<title>Family Info Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=devicewidth,
+initial-scale=1.0">
+<h1 style="text-align:center"> Family Info Page
+</h1>
+</head>
+<body>
+<center><p> <h2> Add Your Family member's Info
+</h2></p></center>
+<br><br>
+<center>
+<form method="post" action="Add">
+Name:<br>
+<input type="text" name="Name"><br><br>
+Relationship:<br>
+<input type="text" name="Relationship"><br><br>
+Date Of Birth:<br>
+<input type="text" name="DOB"><br><br>
+Contact:<br>
+<input type="text" name="Contact"><br><br>
+Family Members:<br>
+<input type="text" name="Fm"><br><br>
+<input type="submit" value="Submit">
+</form>
+</center>
+</body>
+</html>
+
+3. Add.java Servlet :-
+import java.io.*;
+import java.io.PrintWriter;
+import javax.servlet.*;
+import javax.servlet.http.*;
+public class Add extends HttpServlet {
+public void doPost(HttpServletRequest request,
+HttpServletResponse response) throws IOException,
+ServletException{
+PrintWriter out= response.getWriter();
+response.setContentType("text/html");
+String n=request.getParameter("Name");
+String r=request.getParameter("Relationship");
+String d=request.getParameter("DOB");
+String c=request.getParameter("Contact");
+String f=request.getParameter("Fm");
+/* out.println("\n");
+out.println(n);
+out.println(r);
+out.println(d);
+out.println(c);
+out.println(f);*/
+RequestDispatcher
+out.println("<br>Name: "+n);
+out.println("<br><br>Relation: "+r);
+out.println("<br><br>Date of birth: "+d);
+out.println("<br><br>Contact: "+c);
+out.println("<br><br>Total family mebers: "+f);
+}
+
+
+4. Web.xml:-
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1"
+xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+<servlet>
+<servlet-name>Add</servlet-name>
+<servlet-class>Add</servlet-class>
+</servlet>
+<servlet>
+<servlet-name>NewServlet</servlet-name>
+<servlet-class>NewServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Add</servlet-name>
+<url-pattern>/Add</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>NewServlet</servlet-name>
+<url-pattern>/NewServlet</url-pattern>
+</servlet-mapping>
+<session-config>
+<session-timeout>
+30
+</session-timeout>
+</session-config>
+</web-app>
