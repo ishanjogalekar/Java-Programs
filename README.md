@@ -52,3 +52,5 @@ user enters 1, display info about Arithmetic Exception, 2
 and 3 for Null pointer exception and Array index out of
 bound exception, respectively. Use, Try, Catch block for
 each exception individually.
+
+11. Throw example in java 
