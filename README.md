@@ -106,4 +106,13 @@ birth, favourite color,fav place, phone number and
 so on through Fields in UI and store those in the
 database table “MyFamilyInfo_RegNo”.
 
+18. Design a web application and create html and servlet
+classes to design “My Family”
+1. Home page using basic html tags to display few info about
+you with your photo
+2. Create link to feed your family members details in the
+home page
+Design a servlet class to display the info entered in the
+members page.
+
 
