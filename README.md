@@ -100,3 +100,10 @@ buttons named "red", "green", "blue", "pink",
 "black", on clicking the button, print the color name
 in the console
 
+17. Develop an User Interface named “My Family
+page” to feed info like Name, Relationship, date of
+birth, favourite color,fav place, phone number and
+so on through Fields in UI and store those in the
+database table “MyFamilyInfo_RegNo”.
+
+
