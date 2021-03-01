@@ -95,7 +95,7 @@ class Hostel implements Serializable {
 
 public class registration  {
     public static void main(String[] args) throws FileNotFoundException,IOException,ClassNotFoundException {
-        System.out.println("19BCE2250"+" "+"Ishan Sagar Jogalekar");
+       
         //ArrayList
         List<student> stuList=new ArrayList<student>();
         stuList.add(new student("19BCE2010","Rahul",8.62f,101));
