@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Class1_19BCE2250 { public static void T()
 { International s1 = new International();
     National s2 = new National();
-    System.out.println("19BCE2250 Jogalekar Ishan Sagar");
+    
     System.out.println("\n");
     System.out.println("Enter Your International Travel Details Details");
     s1.getData();
