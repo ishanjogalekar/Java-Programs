@@ -83,3 +83,6 @@ and phno into a file and read from the file and
 print in the console. Use Serialization and
 Deserialization in the program
 
+15. Traverse a file and count the words “CSE1007” and
+“JAVA”, print the counts in the console.
+
