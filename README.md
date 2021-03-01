@@ -46,3 +46,9 @@ named student in subpackage SubPack1 and extend
 the class defined as person. Use this class in a program
 of different package Pack2, create an object and invoke
 the methods defined in pack1 class file.
+
+10. Create a program to take input from user as 1 /2 /3, if
+user enters 1, display info about Arithmetic Exception, 2
+and 3 for Null pointer exception and Array index out of
+bound exception, respectively. Use, Try, Catch block for
+each exception individually.
