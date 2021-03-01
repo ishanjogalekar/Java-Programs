@@ -95,3 +95,8 @@ Deserialization in the program
 15. Traverse a file and count the words “CSE1007” and
 “JAVA”, print the counts in the console.
 
+16. Write a JavaFX program to create a page with 5
+buttons named "red", "green", "blue", "pink",
+"black", on clicking the button, print the color name
+in the console
+
