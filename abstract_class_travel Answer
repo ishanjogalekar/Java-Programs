@@ -1,4 +1,4 @@
-**1. package1 :-**
+1.**package1** :-
 package package1;
 import java.util.Scanner;
 public class Class1_19BCE2250 { public static void T()
@@ -101,7 +101,7 @@ class National extends Travel {
 }
 
 
-**2.package2 :-**
+2.**package2** :-
         package package2;
 import package1.*;
 import java.util.Scanner;
