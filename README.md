@@ -1,5 +1,7 @@
+
 # Java_Codes
 Different Java Codes.
+##NOTE :- CLASS NAME AND FILE NAME MAY BE DIFFERENT . PLESE CHECK IT BEFORE DEBUG & RUN CODE.
 1. calendar - Date and weekday finder in Java.
 2. BMI calculator.
 3. Vowelgram in Java.
