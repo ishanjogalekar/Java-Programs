@@ -58,7 +58,7 @@ package package1;
 import java.util.Vector;
 public class MultiThread_19BCE2250 {
  public static void main(String[] args) {
- System.out.println("19BCE2250 Ishan Sagar Jogalekar");
+
  Vector v1 = new Vector(1000);
  Register E1 = new Register(1, v1);
  E1.start();
