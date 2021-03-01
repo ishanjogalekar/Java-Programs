@@ -8,7 +8,7 @@ Different Java Codes.
 
 6. Define an abstract class called Travel [defined in package1] with few appropriate data members and methods for getting and displaying the same, create two subclasses called    “InternationalTravel” and “NationalTravel” with new necessary data members respectively. Create at least three objects for both of the subclasses and just display the info in  package2 based on your travel experience so far. Also create a method which scans the places which you would like to travel along with tentative year, in which you may travel and display that as well.
 
-7.Create a class called Student with Data members (1) Regno (2) Name (3)
+ 7.Create a class called Student with Data members (1) Regno (2) Name (3)
 static data member named as Univ_name and static counter variable to
 store number of objects created and Methods (1) GetMethod (2)
 PrintMethod (3)Constructor (4) Parametrized constructor
