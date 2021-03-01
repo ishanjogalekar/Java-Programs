@@ -76,3 +76,10 @@ max capacity of the vessel is 10. If roti empties, Children wait
 for mom to prepare new roti. Develop a program for the given
 scenario using inter thread communication concept in Java
 programming.
+
+14. Write your information [as string as well as
+MyInfo Class object] like regno, name, cgpa
+and phno into a file and read from the file and
+print in the console. Use Serialization and
+Deserialization in the program
+
