@@ -68,3 +68,11 @@ to update the count variables. The main thread should
 receive the final registration count for all events and
 display the list of students who have not registered in
 any event.
+
+
+13. . In a family, Mom prepares roti for her children. Mom makes
+roti and stacks it up in a vessel, and Children eats from it. The
+max capacity of the vessel is 10. If roti empties, Children wait
+for mom to prepare new roti. Develop a program for the given
+scenario using inter thread communication concept in Java
+programming.
