@@ -109,3 +109,5 @@ home page  c.Design a servlet class to display the info entered in the members p
 
 19.  For same “MyFamily” servlet page in 18th question , create database and store the information. Also have update option from the webpages to do that.
 
+20. OddEvenTest :- Checking number is odd or even using java recursion , user defined method.
+
