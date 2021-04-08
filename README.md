@@ -111,3 +111,5 @@ home page  c.Design a servlet class to display the info entered in the members p
 
 20. OddEvenTest :- Checking number is odd or even using java recursion , user defined method.
 
+21. Maximum number in array using user defined method. (File >> maxnumber.java)
+
