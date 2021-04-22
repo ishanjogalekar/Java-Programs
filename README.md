@@ -115,4 +115,6 @@ home page  c.Design a servlet class to display the info entered in the members p
 
 22.Checking number is strong or not in java (file >> strong_num.java)
    Strong number is a number whose sum of all digits’ factorial is equal to the number ‘n’. example : 145 = 1! + 4! + 5!  
+   
+23. Make 2 linked list add numbers in it. print multiplication of corresponding index numbers in another linked list. ( File >> linkedlists_mul.java)
 
