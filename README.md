@@ -113,3 +113,6 @@ home page  c.Design a servlet class to display the info entered in the members p
 
 21. Maximum number in array using user defined method. (File >> maxnumber.java)
 
+22.Checking number is strong or not in java (file >> strong_num.java)
+   Strong number is a number whose sum of all digits’ factorial is equal to the number ‘n’. example : 145 = 1! + 4! + 5!  
+
