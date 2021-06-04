@@ -86,7 +86,8 @@ out.println(r);
 out.println(d);
 out.println(c);
 out.println(f);*/
-RequestDispatcher
+RequestDispatcher rd=request.getRequestDispatcher("index.html");
+rd.include(request, response);
 out.println("<br>Name: "+n);
 out.println("<br><br>Relation: "+r);
 out.println("<br><br>Date of birth: "+d);
