@@ -1,6 +1,5 @@
-##Date and day finder using Java program.
-
-###Code:
+//Question - Date and day finder using Java program.
+//Code:
 import java.util.Scanner;
 public class Calender {
     public static void main(String[] args) {
