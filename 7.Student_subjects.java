@@ -15,65 +15,80 @@ without clashing
 (5) print the selected course in a table format with all necessary details.*/
 
 //Code - 
-import java.io.*;
-import java.util.*;
-class StudentInfo implements Serializable{
-  String reg;
-  String nameStudent;
-  String cgp;
-  String phone_no;
-  StudentInfo( String r,String na,String c,String P){
-    reg = r;
-    nameStudent = na;
-    cgp=c;
-    phone_no=P;
+public class Regestration {
+  public static void main(String[] args) {
+    Courses c1 = new Courses("CSE3009","IoT","A1", "TT");
+    Courses c2 = new Courses("CSE2001", "CAO", "B1","SJT");
+    Courses c3 = new Courses("CSE1002", "C++", "A1","TT");
+    Courses c4 = new Courses("CSE1007", "Java", "B1","SJT");
+    Student s1 = new Student("19BCE2249","Ram", "VIT");
+    Student s2 = new Student("19BEC2250", "Ishan", "VIT");
+    s1.printDetails();
+    s2.printDetails();
+    c1.printDetails(); 
+    c2.printDetails();
+    c3.printDetails();
+    c4.printDetails();
   }
 }
-public class MyInfo {
-  public static void main(String[] args) {
-    Scanner scan = new Scanner(System.in);
-    System.out.println("Enter Regno: ");
-    String reg = scan.nextLine();
-    System.out.println("Enter Name: ");
-    String name = scan.nextLine();
-    System.out.println("Enter cgpa:");
-    String cgpa = scan.nextLine();
-    System.out.println("Enter Phone number:");
-    String phone = scan.nextLine();
-    StudentInfo s0 = new
-    StudentInfo("19BCE2250","Ishan","8.62","9421043707");
-    try {
-      FileWriter fileR = new FileWriter("C:\\Users\\Dell\\Desktop\\MyInfo_19BCE2250.txt");
-      fileR.write(reg + " ");
-      fileR.append(name + " ");
-      fileR.append(phone + " ");
-      fileR.append(cgpa + " ");
-      fileR.close();
-      } catch (Exception e) {System.out.println(e);}
-    try {
-      FileReader f1 = new FileReader("C:\\Users\\Dell\\Desktop\\MyInfo_19BCE2250.txt");
-      int i;
-      while ((i = f1.read()) != -1) {
-        System.out.print((char) i);
-      }
-      f1.close();
-    } catch (Exception e) {System.out.println(e);}
-    System.out.println();
-    try {
-      FileOutputStream FileO1 = new FileOutputStream("C:\\Users\\Dell\\Desktop\\MyInfo_19BCE2250_After.txt");
-      ObjectOutputStream ob0 = new
-      ObjectOutputStream(FileO1);
-      System.out.println("\n");
-      ob0.writeObject(s0);
-      ob0.close();
-      FileInputStream FileO2 = new FileInputStream("C:\\Users\\Dell\\Desktop\\MyInfo_19BCE2250_After.txt");
-      ObjectInputStream ob1 = new 
-      ObjectInputStream(FileO2);
-      StudentInfo s1= (StudentInfo) ob1.readObject();
-      System.out.println("Name:"+" "+s1.nameStudent);
-      System.out.println("Reg No"+" "+s1.reg);
-      System.out.println("CGPA"+" "+s1.cgp);
-      System.out.println("Phone no"+" "+ s1.phone_no);
-    }catch (Exception e) {System.out.println(e);}
+class Student
+{
+  String regNo;
+  String name;
+  String univName;
+  public Student(String regNo, String name, String univName)
+  {
+    this.regNo = regNo;
+    this.name = name;
+  }
+  public String getRegNo()
+  {
+    return regNo;
+  }
+  public String getName()
+  {
+    return name;
+  }
+  public String getUnivName()
+  {
+    return univName;
+  }
+  public void printDetails()
+  {
+    System.out.println("Student:-" +"\nregNo='" + regNo + "\nname=" + name);
+  }
+}
+class Courses
+{
+  String courseCode;
+  String name;
+  String slot;
+  String venue;
+  public Courses(String courseCode, String name, String slot,String venue)
+  {
+    this.courseCode = courseCode;
+    this.name = name;
+    this.slot = slot;
+    this.venue = venue;
+  }
+  public String getCourseCode()
+  {
+    return courseCode;
+  }
+  public String getName()
+  {
+    return name;
+  }
+  public String getSlot()
+  {
+    return slot;
+  }
+  public String getVenue()
+  {
+    return venue;
+  }
+  public void printDetails()
+  {
+System.out.println("Courses:-" + "\ncourseCode='" +courseCode + "\nname=" + name + "\nslot=" + slot + "\nvenue=" + venue);
   }
 }
