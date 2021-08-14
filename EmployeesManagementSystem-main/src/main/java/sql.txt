@@ -1,0 +1,7 @@
+CREATE database employee;
+use employee;
+create table emp(
+id int NOT null primary key auto_increment,
+first_name varchar(200) NOT null,
+last_name varchar(200),
+email varchar(100) not null);
