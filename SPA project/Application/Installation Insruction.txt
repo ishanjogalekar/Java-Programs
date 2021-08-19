@@ -1,0 +1,16 @@
+To install this app :
+Requirements :
+1. JDK 16
+    - If choosing another version of JDK specify in pom.xml file
+2. MySQL database server and workbench software of MySQL.
+3. Browser to deploy app on localhost
+    - As spring is already loaded with Tomcat server with localhost:8080 no need
+      to use external server
+4. Maven dependencies are injected directly to avoid tight coupling in codes.
+5. Java directory contains all backend part while resources-> templates contains
+   frontend as HTML files with bootstrap css.
+
+Steps -
+1. Open project in IntelliJ Idea
+2. Change table name according to your database in model-Employee class.
+3. Change database properties in application.properties file.
