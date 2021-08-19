@@ -16,3 +16,4 @@
 3. Change database properties in application.properties file.
 
 ## Used tech stacks :
+[logo]: https://github.com/ishanjogalekar/Java-Codes/blob/main/SPA%20project/icons/Java.png "JAVA"
