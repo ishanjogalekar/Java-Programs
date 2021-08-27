@@ -73,6 +73,10 @@ b)Use Serialization and Deserialization in the program. <br/>
 **Note** - Strong number is a number whose sum of all digits’ factorial is equal to the number ‘n’. example : 145 = 1! + 4! + 5! 
 19. Make 2 **linked list** add numbers in it. print multiplication of corresponding index numbers in another linked list.
 20. Java Program to add two integers but take integers **input as String**.Convert String to int *(without type conversion)* and add integers.
+21. Java Magic Number program. <br/>
+Magic number is -> Consider an example ,  325 is a magic number because the sum of its digits (3+2+5) is 10, and again sum up the resultant (1+0), <br/>
+we get a single digit (1) as the result. Hence, the number 325 is a magic number.**Some other magic numbers are 1234, 226, 10, 1, 37, 46, 55, 73, etc.**
+
 
 ---
 ## Project :- SPA (Single Page Application)
