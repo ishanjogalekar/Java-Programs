@@ -92,4 +92,5 @@ we get a single digit (1) as the result. Hence, the number 325 is a magic number
 I) Spring Boot application using Maven. <br/>
 II) *pom.xml* contains all dependencies. <br/>
 III) Also used *MySql* as relation database. <br/>
-IV) Devloped in *Intellij Idea* IDE.
+IV) Devloped in *Intellij Idea* IDE. <br/>
+**Note** - Check SPA folder within main brach for project.
