@@ -1,13 +1,13 @@
 # Java Codes - Different Java Codes.
 
 ### Included topics :
-1.Java core <br/>
-2.Java multithreading <br/>
-3.Java object oriented programming <br/>
-4.JavaFx <br/>
-5.Java servlet
+1. Java core 
+2. Java multithreading 
+3. Java object oriented programming 
+4. JavaFx 
+5. Java servlet
 
-<img  alt="Java" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" /> <br/>
+<img width="40px"  alt="Java" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" /> <br/>
 ---
 ## Questions 
 1. calendar - Date and weekday finder in Java.
@@ -73,6 +73,7 @@ b)Use Serialization and Deserialization in the program. <br/>
 18. Checking number is *strong* or not in Java <br/> 
 **Note** - Strong number is a number whose sum of all digits’ factorial is equal to the number ‘n’. example : 145 = 1! + 4! + 5! 
 19. Make 2 **linked list** add numbers in it. print multiplication of corresponding index numbers in another linked list.
+20. Java Program to add two integers but take integers **input as String**.Convert String to int *(without type conversion)* and add integers.
 
 ---
 ## Project :- SPA (Single Page Application)
