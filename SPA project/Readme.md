@@ -1,4 +1,4 @@
-# This is SPA project using Spring boot and RESTapi <br/>
+# This is SPA project using Spring boot and REST-API <br/>
 ## Requirements:
 1. JDK 16 <br/>
     - If choosing another version of JDK specify in pom.xml file
