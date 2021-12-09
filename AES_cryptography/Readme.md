@@ -9,8 +9,8 @@ Symmetric encryption algorithm implementation using Java <br/>
 2. App.java is class for implement encryption and decryption using AES algorithm.
 
 *JAR files*: <br/>
-[java.xml.bind](http://www.java2s.com/Code/Jar/j/Downloadjavaxxmlbindjar.htm) <br/>
-[jva.xml](http://www.java2s.com/Code/Jar/j/Downloadjavaxxml134jar.htm)
+[java.xml.bind JAR](http://www.java2s.com/Code/Jar/j/Downloadjavaxxmlbindjar.htm) <br/>
+[java.xml JAR](http://www.java2s.com/Code/Jar/j/Downloadjavaxxml134jar.htm)
 
 ----
 
