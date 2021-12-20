@@ -103,7 +103,7 @@ AES is symmetric cryptography technique or algorithm
 ---
 
 ## Project :- SPA (Single Page Application)
-[**SPA Projet**](https://github.com/ishanjogalekar/Java-Programs/tree/main/SPA%20project)
+[**SPA Project**](https://github.com/ishanjogalekar/Java-Programs/tree/main/SPA%20project)
 <p>
 <img alt="Spring" src="https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot" />
 <img alt="Maven"  src="https://img.shields.io/badge/apache_maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" />
