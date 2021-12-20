@@ -82,9 +82,17 @@ b)Use Serialization and Deserialization in the program. <br> ->[My Information u
 Magic number is -> Consider an example ,  325 is a magic number because the sum of its digits (3+2+5) is 10, and again sum up the resultant (1+0), <br/>
 we get a single digit (1) as the result. Hence, the number 325 is a magic number.**Some other magic numbers are 1234, 226, 10, 1, 37, 46, 55, 73, etc.** <br>
 ->[Magic number](https://github.com/ishanjogalekar/Java-Programs/blob/main/21.Magic_number.java) <br/>
-22. AES cryptography using Java XML JAR. <br/>
+
+
+---
+
+## AES Cryptography:
+AES cryptography using Java XML JAR. <br/>
 AES is symmetric cryptography technique or algorithm
-->[AES Cryptography](https://github.com/ishanjogalekar/Java-Programs/tree/main/AES_cryptography)
+->[**AES Cryptography**](https://github.com/ishanjogalekar/Java-Programs/tree/main/AES_cryptography)
+
+---
+
 
 ---
 ## Project :- SPA (Single Page Application)
