@@ -88,7 +88,9 @@ Example: If "Ishan" is String then missing alphabets are : {b c d e f g j k l m 
 23. Find largest digit in number. <br/>
 Example: If number is "128" then largest digit is: 8  <br/>
 ->[Largest digit in number](https://github.com/ishanjogalekar/Java-Programs/blob/main/23.largest_digit_in_number.java) <br/>
-
+24. Find smallest and largest digit in number using **Math Package**. <br/>
+Example: If number is "128" then  smallest digit is : 1 and largest digit is: 8  <br/>
+->[Smallest and Largest digit in number](https://github.com/ishanjogalekar/Java-Programs/blob/main/24.smallest_largest_digit.java) <br/>
 
 ---
 
@@ -96,11 +98,10 @@ Example: If number is "128" then largest digit is: 8  <br/>
 AES cryptography using Java XML JAR. <br/>
 AES is symmetric cryptography technique or algorithm
 ->[**AES Cryptography**](https://github.com/ishanjogalekar/Java-Programs/tree/main/AES_cryptography)
+**Note** - Check AES_cryptography folder within main brach for project.
 
 ---
 
-
----
 ## Project :- SPA (Single Page Application)
 [**SPA Projet**](https://github.com/ishanjogalekar/Java-Programs/tree/main/SPA%20project)
 <p>
@@ -119,3 +120,5 @@ II) *pom.xml* contains all dependencies. <br/>
 III) Also used *MySql* as relation database. <br/>
 IV) Devloped in *Intellij Idea* IDE. <br/>
 **Note** - Check SPA folder within main brach for project.
+
+---
