@@ -6,6 +6,7 @@ Find smallest and largest digit in number using Math package
 public class smallest_largest_digit {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter number:");
         int n = sc.nextInt();
         int smallest = 9;
         int largest = 0;
