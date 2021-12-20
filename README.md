@@ -82,6 +82,12 @@ b)Use Serialization and Deserialization in the program. <br> ->[My Information u
 Magic number is -> Consider an example ,  325 is a magic number because the sum of its digits (3+2+5) is 10, and again sum up the resultant (1+0), <br/>
 we get a single digit (1) as the result. Hence, the number 325 is a magic number.**Some other magic numbers are 1234, 226, 10, 1, 37, 46, 55, 73, etc.** <br>
 ->[Magic number](https://github.com/ishanjogalekar/Java-Programs/blob/main/21.Magic_number.java) <br/>
+22. Print missing alphabets in String. <br/>
+Example: If "Ishan" is String then missing alphabets are : {b c d e f g j k l m o p q r t u v w x y z} consider only lower case. <br/>
+->[Missing alphabets in string](https://github.com/ishanjogalekar/Java-Programs/blob/main/22.missing_alphabets.java) <br/>
+23. Find largest digit in number. <br/>
+Example: If number is "128" then largest digit is: 8  <br/>
+->[Largest digit in number](https://github.com/ishanjogalekar/Java-Programs/blob/main/23.largest_digit_in_number.java) <br/>
 
 
 ---
