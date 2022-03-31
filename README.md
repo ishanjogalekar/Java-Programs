@@ -91,6 +91,9 @@ Example: If number is "128" then largest digit is: 8  <br/>
 24. Find smallest and largest digit in number using **Math Package**. <br/>
 Example: If number is "128" then  smallest digit is : 1 and largest digit is: 8  <br/>
 ->[Smallest and Largest digit in number](https://github.com/ishanjogalekar/Java-Programs/blob/main/24.smallest_largest_digit.java) <br/>
+25. Sort Hash-map using Tree-map with respective to keys in Hash-map.<br/>
+->[Sort Hash-map](https://github.com/ishanjogalekar/Java-Programs/blob/main/25.sort_hashmap.java) <br/>
+
 
 ---
 
