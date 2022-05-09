@@ -93,6 +93,13 @@ Example: If number is "128" then  smallest digit is : 1 and largest digit is: 8 
 ->[Smallest and Largest digit in number](https://github.com/ishanjogalekar/Java-Programs/blob/main/24.smallest_largest_digit.java) <br/>
 25. Sort Hash-map using Tree-map with respective to keys in Hash-map.<br/>
 ->[Sort Hash-map](https://github.com/ishanjogalekar/Java-Programs/blob/main/25.sort_hashmap.java) <br/>
+26. Given an array of integers nums containing n + 1 integers where each integer is in the range [1,n] inclusive.There is only one repeated number in nums, return this repeated number.
+```
+Input: nums = [1,3,4,2,2]
+Output: 2
+```
+->[Find Duplicate Number](https://github.com/ishanjogalekar/Java-Programs/blob/main/26.%20Findduplicate.java) <br/>
+
 
 
 ---
