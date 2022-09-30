@@ -99,18 +99,20 @@ Input: nums = [1,3,4,2,2]
 Output: 2
 ```
 ->[Find Duplicate Number](https://github.com/ishanjogalekar/Java-Programs/blob/main/26.%20Findduplicate.java) <br/>
+
 27. Given number N and K ,  weird nucountmbers netween 1 to N. Weird number is number is not divisible by K and sum of digits is divisible by K.
 ```
 Input:  N = 11 , K = 2
 Output: 1
 ```
-->[Weird-Number](https://github.com/ishanjogalekar/Java-Programs/blob/main/27.weird_num.java)
+->[Weird-Number](https://github.com/ishanjogalekar/Java-Programs/blob/main/27.weird_num.java) <br/>
+
 28. Find and remove third consonant in String from the end of string.
 ```
 Input: String = asdfguihj
 Output: g
 ```
-->[Remove Consonant](https://github.com/ishanjogalekar/Java-Programs/blob/main/28.Remove_Third_Consonant.java)
+->[Remove Consonant](https://github.com/ishanjogalekar/Java-Programs/blob/main/28.Remove_Third_Consonant.java) <br/>
 
 
 ---
