@@ -9,6 +9,7 @@
 
 **Note**: Program links are given in front of questions directly.
 
+
 <p>
 <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
 </p>
@@ -113,6 +114,26 @@ Input: String = asdfguihj
 Output: g
 ```
 ->[Remove Consonant](https://github.com/ishanjogalekar/Java-Programs/blob/main/28.Remove_Third_Consonant.java) <br/>
+
+29. Complementary DNA (**Codewars question**) - Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carries the "instructions" for the development and functioning of living organisms.In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G". Your function receives one side of the DNA (String); you need to return the other complementary side. DNA strand is never empty or there is no DNA at all.
+```
+Input: "ATTGC"
+Output: "TAACG"
+
+```
+->[*Question link*](https://www.codewars.com/kata/554e4a2f232cdd87d9000038)
+<br>
+->[Complementary DNA](https://github.com/ishanjogalekar/Java-Programs/blob/main/29.DnaStrand.java)</br>
+
+30. Find the next perfect square (**Codewars question**) - Complete the findNextSquare method that finds the next integral perfect square after the one passed as a parameter. Recall that an integral perfect square is an integer n such that sqrt(n) is also an integer.If the parameter is itself not a perfect square then -1 should be returned. You may assume the parameter is non-negative. 
+```
+Input: 121
+Output: 144
+```
+->[*Question link*](https://www.codewars.com/kata/56269eb78ad2e4ced1000013/java)
+<br>
+->[Next Square](https://github.com/ishanjogalekar/Java-Programs/blob/main/30.NumberFun.java)<br>
+
 
 
 ---
