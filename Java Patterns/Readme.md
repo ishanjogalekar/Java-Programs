@@ -2,6 +2,7 @@
 
 ## Star Patterns Programs:
 
+**Note -** Program packages may differ, please check accordingly. </br>
 1. Right sided right angled triangle Pattern - </br>
 ```
 Rows = 4 
