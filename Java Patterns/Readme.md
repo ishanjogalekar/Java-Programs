@@ -165,4 +165,4 @@ Rows = 4
    * * *
   * * * *
 ```
-->[**Code**](https://github.com/ishanjogalekar/Java-Programs/blob/main/Java%20Patterns/Star%20Patterns/right_pascal_pattern.java) </br>
+->[**Code**](https://github.com/ishanjogalekar/Java-Programs/blob/main/Java%20Patterns/Star%20Patterns/Sand_Timer_Pattern.java) </br>
