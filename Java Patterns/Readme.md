@@ -95,3 +95,15 @@ Rows = 4
 ```
 ->[**Code**](https://github.com/ishanjogalekar/Java-Programs/blob/main/Java%20Patterns/Star%20Patterns/left_down_pattern.java) </br>
 
+9. Right sided pascal triangle pattern - </br>
+```
+Rows = 4 
+* 
+* * 
+* * * 
+* * * * 
+* * * 
+* * 
+*
+```
+->[**Code**](https://github.com/ishanjogalekar/Java-Programs/blob/main/Java%20Patterns/Star%20Patterns/right_pascal_pattern.java) </br>
