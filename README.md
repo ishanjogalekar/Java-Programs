@@ -1,6 +1,6 @@
 # Java Codes - Different Java Codes for BMSIT.
 
-### Included topics :
+### Included topics are for Mtech students:
 1. Java core.
 2. Java polymorphism.
 3. Java file handling. 
