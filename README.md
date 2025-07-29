@@ -1,4 +1,4 @@
-# Java Codes - Different Java Codes.
+# Java Codes - Different Java Codes for BMSIT.
 
 ### Included topics :
 1. Java core.
