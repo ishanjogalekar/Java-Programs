@@ -43,7 +43,7 @@ public class Main {
           } catch (ArrayIndexOutOfBoundsException g) {
             System.out.println(g);
           }
-          System.out.println("rest of the code");
+          System.out.println("rest of the code1");
       }
       i++;
     }
